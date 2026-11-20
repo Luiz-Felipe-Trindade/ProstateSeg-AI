@@ -1,6 +1,6 @@
 # ProstateSeg AI — MVP
 
-Aplicação web Streamlit para segmentação Whole Gland em volumes axiais de RM T2, reaproveitando `model.py` e a função `predict_volume_masks` do TCC fornecido no `Dash.zip`.
+Aplicação web Streamlit para segmentação Whole Gland em volumes axiais de RM T2, reaproveitando `model.py` e a função `predict_volume_masks`.
 
 ## Instalação (Windows ou Linux)
 
@@ -22,7 +22,9 @@ pip install -r requirements.txt
 
 ## Copiar checkpoint
 
-Crie a pasta `checkpoints/` e copie **do `Dash.zip` original** o arquivo:
+Crie a pasta `checkpoints/` e copie o arquivo:
+
+Link para download do arquivo: http://www.mediafire.com/file/okq3llamijxbhc3/unet_whole_gland_grouped_v2_best.pth
 
 `unet_whole_gland_grouped_v2_best.pth`
 
@@ -30,7 +32,7 @@ Caminho final:
 
 `ProstateSeg_AI/checkpoints/unet_whole_gland_grouped_v2_best.pth`
 
-O checkpoint não está incluído neste ZIP menor (o original tem cerca de 373 MB descompactado). **Use somente seu próprio checkpoint confiável**.
+O checkpoint não está incluído neste repositório devido o tamanho do arquivo
 
 ## Executar
 
